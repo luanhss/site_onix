@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #662d91;
+}
+
+header > img {
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 60px 0px 0px;
+    font-weight: bold;
+    
+}
+
+a:visited {
+    color: black;
+}
+
+.botao-cta {
+    background-color: #662d91;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 100%;
+    box-shadow: 4px 6px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* MAIN */
+main {
+    padding: 15px;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.introducao-texto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.introducao-texto > h1 {
+    padding-bottom: 30px;
+}
+
+.introducao-texto > a {
+    padding-top: 30px;
+}
+
+.imagem-principal {
+    max-width:700px;
+    max-height:700px;
+    width: auto;
+    height: auto;
+}
+
+/* FOOTER */
+footer {
+    background-color: #662d91;
+    display: flex;
+    padding: 15px;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+}
